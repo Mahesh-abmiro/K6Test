@@ -1,5 +1,7 @@
 import http from 'k6/http';
 
+
+// Ramp the number of virtual users up and down
 export const options = {
     stages: [
         { duration: '1m', target: 200 },
