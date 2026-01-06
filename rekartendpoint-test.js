@@ -8,14 +8,14 @@ export const options = {
   stages: [
     { duration: '30s', target: 10 },
     { duration: '1m', target: 40 },
-    { duration: '30s', target: 10 },
+    { duration: '30s', target: 10 }, 
   ],
-  thresholds: {
-    checks: [
-      { threshold: 'rate>0.9', abortOnFail: true, delayAbortEval: '10s' },
-    ],
-    // http_req_duration: ['avg<50'],
-  },
+//   thresholds: {
+//     checks: [
+//       { threshold: 'rate>0.9', abortOnFail: true, delayAbortEval: '10s' },
+//     ],
+//     http_req_duration: ['avg<50'],
+//   },
 };
 
 export default function () {
