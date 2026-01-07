@@ -19,5 +19,5 @@ jobs:
       - name: Run local k6 test
         uses: grafana/run-k6-action@v1
         with:
-          # path: rekartCloud-test.js
-        script: k6/rekartCloud-test.js
+          path: rekartVerificationApi-test.js
+        # script: k6/rekartCloud-test.js
