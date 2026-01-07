@@ -20,5 +20,4 @@ jobs:
         uses: grafana/run-k6-action@v1
         with:
           # path: rekartCloud-test.js
-          with:
-          script: rekartCloud-test.js
+        path: k6 cloud rekartCloud-test.js
