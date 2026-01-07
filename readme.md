@@ -54,3 +54,7 @@ k6 cloud rekartCloud-test.js
 # After running the cloud test, results can be viewed in the Grafana k6 dashboard.
 
 # https://maheshb9d6.grafana.net/a/k6-app/runs/6480680
+
+
+
+![alt text](image.png)
